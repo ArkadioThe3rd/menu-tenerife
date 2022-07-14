@@ -1,2 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import {default as Home} from './home'; 
+/* eslint-disable import/prefer-default-export */
+
+export { default as Home } from './home';
