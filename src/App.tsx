@@ -1,10 +1,11 @@
 import './styles/tailwindcss.scss';
-import { Home } from './pages';
+import { BrowserRouter } from 'react-router-dom';
+import RouteHandler from './routes';
 
 const App = () => (
-  <div>
-    <Home />
-  </div>
+  <BrowserRouter>
+    <RouteHandler />
+  </BrowserRouter>
 );
 
 export default App;
