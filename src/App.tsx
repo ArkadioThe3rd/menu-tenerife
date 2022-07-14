@@ -1,5 +1,10 @@
 import './styles/tailwindcss.scss';
+import { Home } from './pages';
 
-const App = () => <div className="App bg-red-800">HOLA</div>;
+const App = () => (
+  <div>
+    <Home />
+  </div>
+);
 
 export default App;
