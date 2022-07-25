@@ -8,6 +8,9 @@ module.exports = {
       textColor: {
         title: '#1B374F',
       },
+      borderRadius: {
+        '4xl': '3.75rem',
+      },
     },
   },
   plugins: [],
