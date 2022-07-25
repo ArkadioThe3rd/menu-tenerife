@@ -6384,6 +6384,10 @@ video {
   height: 100vh;
 }
 
+.h-banner {
+  height: 37rem;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -36018,6 +36022,10 @@ body {
     height: 100vh;
   }
 
+  .sm\:h-banner {
+    height: 37rem;
+  }
+
   .sm\:max-h-0 {
     max-height: 0px;
   }
@@ -65250,6 +65258,10 @@ body {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-banner {
+    height: 37rem;
   }
 
   .md\:max-h-0 {
@@ -94486,6 +94498,10 @@ body {
     height: 100vh;
   }
 
+  .lg\:h-banner {
+    height: 37rem;
+  }
+
   .lg\:max-h-0 {
     max-height: 0px;
   }
@@ -123720,6 +123736,10 @@ body {
     height: 100vh;
   }
 
+  .xl\:h-banner {
+    height: 37rem;
+  }
+
   .xl\:max-h-0 {
     max-height: 0px;
   }
@@ -152952,6 +152972,10 @@ body {
 
   .\32xl\:h-screen {
     height: 100vh;
+  }
+
+  .\32xl\:h-banner {
+    height: 37rem;
   }
 
   .\32xl\:max-h-0 {

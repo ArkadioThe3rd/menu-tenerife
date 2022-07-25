@@ -1,5 +1,12 @@
-import { Header } from '../../components';
+import { Header, Banner } from '../../components';
 
-const Home = () => <Header />;
+const Home = () => (
+  <div className="w-full">
+    <Header />
+    <div className="mx-28">
+      <Banner />
+    </div>
+  </div>
+);
 
 export default Home;
