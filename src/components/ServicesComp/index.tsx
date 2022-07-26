@@ -1,15 +1,18 @@
 interface IServiceComp {
   title: string;
   description: string;
-  img: string;
+  className?: string;
 }
 
-const ServicesComp = ({ title, description, img }: IServiceComp) => (
-  <div className="w-96 bg-yellow-100 rounded-4xl">
-    <h2 className="text-6xl text-title mt-12">{title}</h2>
-    <p className="text-xl mt-5">{description}</p>
-    <img src={img} alt="0" />
+const ServicesComp = ({ title, description, className }: IServiceComp) => (
+  <div className={`w-96 bg-yellow-100 rounded-4xl ${className}`}>
+    <h2 className="text-6xl text-title mt-12 text-center">{title}</h2>
+    <p className="text-xl mt-5 text-center">{description}</p>
   </div>
 );
+
+ServicesComp.defaultProps = {
+  className: '',
+};
 
 export default ServicesComp;
