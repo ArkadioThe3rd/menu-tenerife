@@ -16,6 +16,15 @@ body {
   }
 }
 
+@font-face {
+  font-family: 'NT Wagner';
+  src: url('../assets/fonts/NT\ Wagner.otf');
+}
+
 .scroll-behavior {
   scroll-behavior: smooth;
+}
+
+.underline-color {
+  text-decoration-color: #efc88e;
 }
