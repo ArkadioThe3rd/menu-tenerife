@@ -16,6 +16,7 @@ module.exports = {
         ntwagner: 'NT Wagner',
       },
       height: {
+        serviceComp: '28rem',
         banner: '37rem',
       },
       textColor: {

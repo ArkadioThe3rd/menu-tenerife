@@ -6384,6 +6384,10 @@ video {
   height: 100vh;
 }
 
+.h-serviceComp {
+  height: 28rem;
+}
+
 .h-banner {
   height: 37rem;
 }
@@ -36168,6 +36172,10 @@ body {
     height: 100vh;
   }
 
+  .sm\:h-serviceComp {
+    height: 28rem;
+  }
+
   .sm\:h-banner {
     height: 37rem;
   }
@@ -65540,6 +65548,10 @@ body {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-serviceComp {
+    height: 28rem;
   }
 
   .md\:h-banner {
@@ -94916,6 +94928,10 @@ body {
     height: 100vh;
   }
 
+  .lg\:h-serviceComp {
+    height: 28rem;
+  }
+
   .lg\:h-banner {
     height: 37rem;
   }
@@ -124290,6 +124306,10 @@ body {
     height: 100vh;
   }
 
+  .xl\:h-serviceComp {
+    height: 28rem;
+  }
+
   .xl\:h-banner {
     height: 37rem;
   }
@@ -153662,6 +153682,10 @@ body {
 
   .\32xl\:h-screen {
     height: 100vh;
+  }
+
+  .\32xl\:h-serviceComp {
+    height: 28rem;
   }
 
   .\32xl\:h-banner {

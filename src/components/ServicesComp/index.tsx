@@ -5,7 +5,7 @@ interface IServiceComp {
 }
 
 const ServicesComp = ({ title, description, className }: IServiceComp) => (
-  <div className={`w-96 bg-yellow-100 rounded-4xl ${className}`}>
+  <div className={`w-96 h-serviceComp bg-yellow-100 rounded-4xl ${className}`}>
     <h2 className="text-6xl text-title mt-12 text-center font-ntwagner">
       {title}
     </h2>

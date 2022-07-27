@@ -11,7 +11,7 @@ const Home = () => (
       </h1>
       <hr className="h-0.5 bg-gray-500 mt-16" />
       <div>
-        <h1 className="text-6xl mt-28 mb-20 font-ntwagner text-primary">
+        <h1 className="text-6xl my-20 ml-56 font-ntwagner text-primary">
           Servicios que ofrecemos
         </h1>
         <div className="flex flex-row w-full place-content-center">
@@ -43,7 +43,7 @@ const Home = () => (
             )}de trabajo y al domicilio`}
           />
         </div>
-        <div className="mt-24 inline-block float-right">
+        <div className="mt-14 inline-block float-right">
           <p className="text-4xl">
             Lorem ipraesent luptatum zzril delenit
             <br /> augue duis dolore te feugait nulla faci
