@@ -8,6 +8,7 @@ module.exports = {
       backgroundColor: {
         primary: '#EFC88E',
         secondary: '#1B374F',
+        darkbrown: '#BA946E',
       },
       borderRadius: {
         '4xl': '3.75rem',
