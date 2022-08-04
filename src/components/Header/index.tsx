@@ -1,5 +1,5 @@
 const Header = () => (
-  <nav className="flex flex-row h-28 place-content-center items-center w-full bg-white text-secondary text-xl space-x-16 filter drop-shadow-md mb-2">
+  <nav className="flex flex-row h-28 place-content-center items-center w-full bg-white text-secondary text-xl space-x-16 filter drop-shadow-md mb-8">
     <div className="hover:text-primary hover:underline">
       <a href="/">Home</a>
     </div>

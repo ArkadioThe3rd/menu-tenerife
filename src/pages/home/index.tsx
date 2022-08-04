@@ -1,4 +1,4 @@
-import { Header, Banner, ServicesComp } from '../../components';
+import { Header, Banner, ServicesComp, Footer } from '../../components';
 
 const Home = () => (
   <div className="w-full h-full overflow-y-auto scroll-behavior">
@@ -80,6 +80,7 @@ const Home = () => (
             menos en casa.
           </h1>
         </div>
+        <Footer />
       </div>
     </div>
   </div>
