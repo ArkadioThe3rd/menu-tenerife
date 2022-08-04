@@ -9,6 +9,8 @@ module.exports = {
         primary: '#EFC88E',
         secondary: '#1B374F',
         darkbrown: '#BA946E',
+        olivegreen: '#B5C49F',
+        redsalmon: '#E78061',
       },
       borderRadius: {
         '4xl': '3.75rem',
