@@ -11,6 +11,7 @@ module.exports = {
         darkbrown: '#BA946E',
         olivegreen: '#B5C49F',
         redsalmon: '#E78061',
+        graygrid: '#F4EFEE',
       },
       borderRadius: {
         '4xl': '3.75rem',
@@ -25,6 +26,7 @@ module.exports = {
       textColor: {
         title: '#1B374F',
         primary: '#EFC88E',
+        redsalmon: '#E78061',
       },
     },
   },
