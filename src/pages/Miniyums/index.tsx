@@ -1,15 +1,15 @@
 import { Header, Footer, InfoCard, InfoCardGroup } from '../../components';
 
-const LaColeccion = () => (
+const Miniyums = () => (
   <div className="w-full h-full overflow-y-auto">
     <Header />
     <div className="px-28 w-full">
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row">
         <div>
-          <h1 className="text-title text-6xl font-ntwagner">La Coleccion</h1>
+          <h1 className="text-title text-6xl font-ntwagner">Miniyums</h1>
           <h2 className="text-3xl text-gray-400 font-ntwagner">Hosteleria</h2>
         </div>
-        <div className="flex bg-olivegreen rounded-bl-full w-80 place-content-center items-center">
+        <div className="flex bg-redsalmon rounded-bl-full w-80 place-content-center items-center">
           <p>
             Postres de todo el mundo de
             <br />
@@ -133,7 +133,7 @@ const LaColeccion = () => (
       </div>
     </div>
     <InfoCardGroup>
-      <InfoCard color="bg-olivegreen">
+      <InfoCard color="bg-redsalmon">
         <p className="text-white font-sans text-xl mt-16">
           Cómo realizar el pedido
         </p>
@@ -148,10 +148,10 @@ const LaColeccion = () => (
           <br /> domicilio
         </h2>
       </InfoCard>
-      <InfoCard color="bg-redsalmon">
+      <InfoCard color="bg-primary">
         <img alt="falta imagen" />
       </InfoCard>
-      <InfoCard color="bg-primary">
+      <InfoCard color="bg-olivegreen">
         <p className="text-white font-sans text-xl mt-16">Precios</p>
         <h2 className="text-white font-ntwagner text-3xl mt-1">4€/unidad</h2>
         <p className="text-white font-sans text-xl mt-16">Tiempos de entrega</p>
@@ -171,4 +171,4 @@ const LaColeccion = () => (
   </div>
 );
 
-export default LaColeccion;
+export default Miniyums;
