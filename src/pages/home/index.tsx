@@ -43,31 +43,33 @@ const Home = () => (
             )}de trabajo y al domicilio`}
           />
         </div>
-        <div className="mt-14">
-          <p className="text-4xl">
-            Lorem ipraesent luptatum zzril delenit
-            <br /> augue duis dolore te feugait nulla faci
-            <br />
-            lisicing elit, sed diam nonummy.
-          </p>
-          <div className="flex flex-row">
-            <div className="mt-10 mr-5">
-              <hr className="h-1 bg-yellow-700 rounded-sm" />
-              <p className="text-2xl mt-11">
-                Lorem ipsum dolor sit amet, con
-                <br />
-                sectetuer adipiscing elitLorem
-                <br /> ipsum dolor sit amet.
-              </p>
-            </div>
-            <div className="mt-10">
-              <hr className="h-1 bg-yellow-700 rounded-sm" />
-              <p className="text-2xl mt-11">
-                Lorem ipsum dolor sit amet, con
-                <br />
-                sectetuer adipiscing elitLorem
-                <br /> ipsum dolor sit amet.
-              </p>
+        <div className="flex justify-end mt-14">
+          <div className="flex flex-col">
+            <p className="text-4xl">
+              Lorem ipraesent luptatum zzril delenit
+              <br /> augue duis dolore te feugait nulla faci
+              <br />
+              lisicing elit, sed diam nonummy.
+            </p>
+            <div className="flex flex-row">
+              <div className="mt-10 mr-5">
+                <hr className="h-1 bg-yellow-700 rounded-sm" />
+                <p className="text-2xl mt-11">
+                  Lorem ipsum dolor sit amet, con
+                  <br />
+                  sectetuer adipiscing elitLorem
+                  <br /> ipsum dolor sit amet.
+                </p>
+              </div>
+              <div className="mt-10">
+                <hr className="h-1 bg-yellow-700 rounded-sm" />
+                <p className="text-2xl mt-11">
+                  Lorem ipsum dolor sit amet, con
+                  <br />
+                  sectetuer adipiscing elitLorem
+                  <br /> ipsum dolor sit amet.
+                </p>
+              </div>
             </div>
           </div>
         </div>
