@@ -6,7 +6,7 @@ interface IInfoCard {
 }
 
 const InfoCard = ({ color, children }: IInfoCard) => (
-  <div className={`flex flex-col w-1/3 ${color} items-center`}>{children}</div>
+  <div className={`flex flex-col w-1/3 ${color}`}>{children}</div>
 );
 
 InfoCard.defaultProps = {
