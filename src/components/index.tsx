@@ -7,3 +7,4 @@ export { default as ImagenTexto } from './ImagenTexto';
 export { default as InfoCardGroup } from './InfoCardGroup';
 export { default as Footer } from './Footer';
 export { default as InfoCard } from './InfoCard';
+export { default as BannerPattern } from './BannerPattern';
