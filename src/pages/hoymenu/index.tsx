@@ -20,7 +20,12 @@ const HoyMenu = () => {
   return (
     <div className="w-full h-full overflow-y-auto">
       <Header logo="https://imagenesmenutenerife.s3.amazonaws.com/Hoy+Menu%CC%81+Tenerife_Logotipo.svg" />
-      <BannerPattern backgroundColor="olivegreen" pattern={image.pattern} />
+      <BannerPattern
+        backgroundColor="bg-olivegreen"
+        pattern={image.pattern}
+        title="Hoy Menu"
+        subtitle="Para navieras y particulares"
+      />
       <div className="flex flex-col my-28 px-80">
         <ImagenTexto
           title="Para navierasy empresas"

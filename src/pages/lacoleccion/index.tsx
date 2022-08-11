@@ -1,28 +1,29 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Header, Footer, InfoCard, InfoCardGroup } from '../../components';
+import {
+  Header,
+  Footer,
+  InfoCard,
+  InfoCardGroup,
+  BannerPattern,
+} from '../../components';
 
 const LaColeccion = () => {
   const image = {
+    pattern:
+      'https://imagenesmenutenerife.s3.amazonaws.com/Pattern+icono+whatsapp.svg',
     imgInfoCard: 'https://imagenesmenutenerife.s3.amazonaws.com/Foto+3.jpg',
     arrow: 'https://imagenesmenutenerife.s3.amazonaws.com/Cursor.svg',
   };
   return (
     <div className="w-full h-full overflow-y-auto">
       <Header logo="https://imagenesmenutenerife.s3.amazonaws.com/Hoy+Menu%CC%81+Tenerife_Logotipo.svg" />
+      <BannerPattern
+        backgroundColor="bg-redsalmon"
+        title="La Colección"
+        subtitle="Hostelería"
+        pattern={image.pattern}
+      />
       <div className="px-28 w-full">
-        <div className="flex flex-row justify-between">
-          <div>
-            <h1 className="text-title text-6xl font-ntwagner">La Coleccion</h1>
-            <h2 className="text-3xl text-gray-400 font-ntwagner">Hosteleria</h2>
-          </div>
-          <div className="flex bg-olivegreen rounded-bl-full w-80 place-content-center items-center">
-            <p>
-              Postres de todo el mundo de
-              <br />
-              calidad, vegano y sin gluten
-            </p>
-          </div>
-        </div>
         <div className="grid grid-cols-4 grid-rows-4 px-32 mt-36 text-center font-ntwagner gap-20 mb-32">
           <div>
             <div className="bg-graygrid rounded-4xl h-80">
