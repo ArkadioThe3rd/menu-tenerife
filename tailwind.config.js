@@ -27,6 +27,7 @@ module.exports = {
         title: '#1B374F',
         primary: '#EFC88E',
         redsalmon: '#E78061',
+        darkbrown: '#BA946E',
       },
     },
   },

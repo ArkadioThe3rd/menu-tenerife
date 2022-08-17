@@ -2,7 +2,7 @@ interface IBannerPattern {
   backgroundColor: string;
   pattern: string;
   title: string;
-  subtitle: string;
+  subtitle?: string;
 }
 
 const BannerPattern = ({
@@ -30,4 +30,7 @@ const BannerPattern = ({
   );
 };
 
+BannerPattern.defaultProps = {
+  subtitle: '',
+};
 export default BannerPattern;

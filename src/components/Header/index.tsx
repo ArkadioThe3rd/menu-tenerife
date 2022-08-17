@@ -39,7 +39,7 @@ const Header = ({ logo }: IHeader) => (
     </div>
     <div className="rounded-full bg-secondary w-1.5 h-1.5" />
     <div className="hover:text-primary hover:underline">
-      <a href="/panzis">Panzi</a>
+      <a href="/panzi">Panzi</a>
     </div>
   </nav>
 );
